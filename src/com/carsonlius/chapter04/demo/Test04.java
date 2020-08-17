@@ -1,14 +1,16 @@
 package com.carsonlius.chapter04.demo;
 
-import java.util.Comparator;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class Test04 {
     public static void main(String[] args) {
         hashSetTest();
         treeSetTest();
+    }
+
+    private static void arrayLinked(){
+        List<String> names = new LinkedList<>();
+
     }
 
     private static void treeSetTest()
